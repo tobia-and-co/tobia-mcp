@@ -1,0 +1,14 @@
+{
+  "name": "tobia-mcp",
+  "version": "0.1.0",
+  "description": "MCP server di Tobia & Co.: dati pubblici italiani aggiornati ogni giorno (prezzi carburanti, farmaci equivalenti AIFA, cambi BCE) e calcolatori dei diritti dei viaggiatori (voli UE 261/2004, treni). Gratis, senza chiavi.",
+  "type": "module",
+  "bin": { "tobia-mcp": "index.js" },
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Tobia & Co. <tobia.and.co@proton.me> (https://tobia-and-co.github.io)",
+  "homepage": "https://tobia-and-co.github.io/agenti/",
+  "keywords": ["mcp", "model-context-protocol", "italia", "carburanti", "benzina", "farmaci", "aifa", "eu261", "rimborso volo", "treni"],
+  "engines": { "node": ">=18" },
+  "dependencies": { "@modelcontextprotocol/sdk": "1.32.2", "zod": "3.25.76" }
+}
